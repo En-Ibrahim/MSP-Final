@@ -40,6 +40,7 @@ public class Person {
 
     public void printExtraInfo() {
         // Implementation in subclasses
+        // complete impelementaion here
     }
 }
 
@@ -57,6 +58,8 @@ class Client extends Person {
 
     @Override
     public void printExtraInfo() {
+
+        // add extra information here where basic information public class !??
         System.out.println("Client Email: " + email);
     }
 }
@@ -81,6 +84,7 @@ class Employee extends Person {
 
     @Override
     public void printExtraInfo() {
+                // add extra information here where basic information public class !??
         System.out.println("Employee Salary: " + salary + ", Working Time: " + workingTime);
     }
 }
